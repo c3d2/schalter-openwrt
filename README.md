@@ -5,7 +5,7 @@
 * clone openwrt:
 
 ```bash
-$ git clone git://git.openwrt.org/openwrt.git
+$ git clone git://git.openwrt.org/15.05/openwrt.git
 ```
 
 * Add schalter package feed
