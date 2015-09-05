@@ -51,7 +51,7 @@ define Build/Compile
 endef
 
 define Package/iojs/install
-  $(MAKE) $(PKG_JOBS) -C $(PKG_BUILD_DIR) DESTDIR="$(1)" install
+	$(MAKE) $(PKG_JOBS) -C $(PKG_BUILD_DIR) DESTDIR="$(1)" install
 endef
 
 $(eval $(call BuildPackage,iojs))

@@ -20,9 +20,9 @@ $ ./scripts/feeds install -a
 * Add schalter configuration
 
 ```bash
-$ cat feeds/schalter/config >> .config
+$ cp feeds/schalter/config >> config
 $ ln -s feeds/schalter/files files
-$ make defconfig
+$ make oldconfig
 ```
 
 * Optional (Add your ssh key)
