@@ -1,0 +1,19 @@
+# Copyright (C) 2006 OpenWrt.org
+
+config interface loopback
+	option ifname	lo
+	option proto	static
+	option ipaddr	127.0.0.1
+	option netmask	255.0.0.0
+
+config interface 'lan'
+	option ifname 'eth0'
+	option type 'bridge'
+	option proto 'static'
+	option ipaddr '172.22.99.204'
+	option gateway '172.22.99.4'
+	option netmask '255.255.255.0'
+	#option ip6assign '60'
+
+config globals 'globals'
+	option ula_prefix 'fdf3:8c00:b15d::/48'

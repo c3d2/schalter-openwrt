@@ -1,0 +1,3 @@
+# schalter-openwrt
+
+- TODO: documentation
